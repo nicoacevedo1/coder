@@ -1,0 +1,15 @@
+.container{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    border: 10px solid;
+}
+.container h2{
+    margin: 40px;
+    color: brown;
+    font-style: italic;
+}
+.container p{
+    font-weight: 600;
+}
