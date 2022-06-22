@@ -1,0 +1,15 @@
+.Contador{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    
+}
+.Contador h2{
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+
