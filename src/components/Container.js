@@ -1,13 +1,21 @@
+
 import './Container.css';
 
 function ItemListContainer() {
   return (
-    <div className="container">
-      <h2>TituloEjemplo</h2>
-      <p>TextoEjemplo</p>
- 
-    </div>
+    <div className="wrapper">
+
+       <div className='container'>
+         <img src="../" alt="Imagen"></img>
+         <h2>Titulo</h2>
+         <p> lorem dasloeokd okasokaoksakoda sada dasd </p>
+        <a href='#'>Link para continuar</a>
+        
+      </div>  
+     </div>
+
   );
 }
+
 
 export default ItemListContainer;
