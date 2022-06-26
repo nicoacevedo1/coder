@@ -1,9 +1,21 @@
+import { useEffect, useState } from 'react';
 import './Body.css';
+import ItemListContainer from './Container';
+
 
 function Body() {
+
+  const [info, setInfo] = useState()
+  useEffect (()=>{
+    fetch('data.json')
+    .then((resp) => resp.json())
+    .then((data) => setInfo(data) )
+  }, [])
+
+
   return (
     <section className='cuerpo'>
-        <h2>Ejemplo 1</h2>
+        {info && info.map(i => <ItemListContainer product={i.title} price={i.price} link={i.pictureUrl} />)}
     </section>
   );
 }

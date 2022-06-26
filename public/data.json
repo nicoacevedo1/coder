@@ -1,6 +1,6 @@
-[{"id":1,"title":null,"price":null,"pictureUrl":null},
-{"id":2,"title":null,"price":null,"pictureUrl":null},
-{"id":3,"title":null,"price":null,"pictureUrl":null},
-{"id":4,"title":null,"price":null,"pictureUrl":null},
-{"id":5,"title":null,"price":null,"pictureUrl":null},
-{"id":6,"title":null,"price":null,"pictureUrl":null}]
+[{"id":1,"title":"3 Series","price":1999,"pictureUrl":"http://dummyimage.com/166x100.png/5fa2dd/ffffff"},
+{"id":2,"title":"Continental Flying Spur","price":2011,"pictureUrl":"http://dummyimage.com/160x100.png/5fa2dd/ffffff"},
+{"id":3,"title":"GS","price":2013,"pictureUrl":"http://dummyimage.com/108x100.png/5fa2dd/ffffff"},
+{"id":4,"title":"S7","price":2007,"pictureUrl":"http://dummyimage.com/236x100.png/ff4444/ffffff"},
+{"id":5,"title":"Prowler","price":1999,"pictureUrl":"http://dummyimage.com/193x100.png/cc0000/ffffff"},
+{"id":6,"title":"Elite","price":1995,"pictureUrl":"http://dummyimage.com/241x100.png/5fa2dd/ffffff"}]

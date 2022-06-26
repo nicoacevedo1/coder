@@ -25,12 +25,11 @@ function Itemcount() {
  
   return (
     <div className="Contador">
-      <h2>Remera talle "M": {stock} unidades</h2>
       <span className="counter__output">{num}</span>
       <div className="btn__container">
         <button className="control__btn" onClick={Suma}>+</button>
         <button className="control__btn" onClick={Resta}>-</button>
-        <button className="reset" onClick={Reset}>Resetear</button>
+        <button className="reset" onClick={Reset}>Añadir al carro</button>
       </div>
     </div>
   );

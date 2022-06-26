@@ -1,16 +1,19 @@
 
+import { useEffect, useState } from 'react';
 import './Container.css';
+import Itemcount from './ItemCount';
 
-function ItemListContainer() {
+function ItemListContainer(props) {
+ 
+
   return (
     <div className="wrapper">
 
        <div className='container'>
-         <img src="../" alt="Imagen"></img>
-         <h2>Titulo</h2>
-         <p> lorem dasloeokd okasokaoksakoda sada dasd </p>
-        <a href='#'>Link para continuar</a>
-        
+         <img src={props.link} alt="Imagen"></img>
+         <h2>{props.product}</h2>
+         <p> {props.price} </p>
+        <Itemcount />
       </div>  
      </div>
 

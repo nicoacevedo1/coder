@@ -1,18 +1,5 @@
 .cuerpo{
-    height: 300px;
-    display: flex;
-    background-color: lightblue;
-    justify-content: space-around;
-    border: 2px solid black;
-    
-
-}
-
-.cuerpo h2{
-    font-size: larger;
-    font-weight:bolder;
-    border:thick double black;
-    padding: 30px;
-    align-self: center;
-
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 }
