@@ -2,15 +2,15 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Body from './components/Body';
-import Itemcount from './components/ItemCount';
-import ItemListContainer from './components/Container';
+import Item from './components/Itemm';
+
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Body />
-
+        <Body />
+        <Item />
     </div>
 
   );

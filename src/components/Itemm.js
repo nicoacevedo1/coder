@@ -1,11 +1,11 @@
+
 import { useEffect, useState } from 'react';
-import './Body.css';
 import ItemListContainer from './Container';
+import './Item.css';
 
 
-
-function Body() {
-
+function Item(props) {
+ 
   const [info, setInfo] = useState()
   useEffect (()=>{
     setTimeout(() => {
@@ -15,13 +15,14 @@ function Body() {
     }, 2000);
   }, [])
 
-
+console.log (info);
   return (
     <section className='cuerpo'>
+      
         {info && info.map(i => <ItemListContainer product={i.title} price={i.price} link={i.pictureUrl} />)}
     </section>
   ); 
 }
 
-export default Body;
 
+export default Item;

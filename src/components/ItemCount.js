@@ -20,7 +20,7 @@ function Itemcount() {
   const Reset = () => {
     setNum(0);
   };
-    const [stock, setStock] = useState (5);
+    const [stock,] = useState (5);
 
  
   return (
@@ -30,6 +30,7 @@ function Itemcount() {
         <button className="control__btn" onClick={Suma}>+</button>
         <button className="control__btn" onClick={Resta}>-</button>
         <button className="reset" onClick={Reset}>Añadir al carro</button>
+        
       </div>
     </div>
   );
